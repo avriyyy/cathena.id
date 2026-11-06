@@ -3,9 +3,16 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Cathena — Segera Hadir</title>
+    <title>Cathena | Segera Hadir</title>
     <meta name="description" content="Cathena, platform e-book dengan storefront digital, segera hadir. Daftarkan email untuk kabar peluncuran.">
+    <meta property="og:title" content="Cathena | Segera Hadir">
+    <meta property="og:description" content="Platform e-book dengan storefront digital. Daftarkan email untuk kabar peluncuran.">
+    <meta property="og:image" content="{{ url('images/logo.png') }}">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary">
     <link rel="icon" href="{{ asset('images/logo.svg') }}" type="image/svg+xml">
+    <link rel="alternate icon" href="{{ asset('images/logo.png') }}" type="image/png">
+    <link rel="apple-touch-icon" href="{{ asset('images/logo.png') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&display=swap" rel="stylesheet">
