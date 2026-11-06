@@ -26,14 +26,12 @@ Homestead.json
 Homestead.yaml
 Thumbs.db
 
-# Tim-agent Sirkus Cathena (lokal saja, tidak ikut push)
+# Konfigurasi agent (lokal saja, tidak ikut push)
 /AGENTS.md
-/TEAM.md
-/KALIO.md
 /AGENTS.laravel.md
 /CLAUDE.laravel.md
-/.herdr-team/
 
 # Dok internal (tidak ikut push)
 /prd.md
 /DESIGN.md
+.taste-skill
