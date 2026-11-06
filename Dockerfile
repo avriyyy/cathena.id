@@ -1,8 +1,8 @@
 FROM php:8.4-fpm-bookworm
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    nginx supervisor sqlite3 libsqlite3-dev libzip-dev unzip git \
-    && docker-php-ext-install pdo_sqlite pcntl opcache zip \
+    nginx supervisor sqlite3 libsqlite3-dev libzip-dev libpq-dev unzip git \
+    && docker-php-ext-install pdo_sqlite pdo_pgsql pcntl opcache zip \
     && rm -rf /var/lib/apt/lists/*
 
 COPY --from=composer:lts /usr/bin/composer /usr/bin/composer
